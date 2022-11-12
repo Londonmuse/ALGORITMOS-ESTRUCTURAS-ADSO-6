@@ -20,7 +20,7 @@ Algoritmo VENTA_DE_LLANTAS
 				Escribir "ESTA OPCION NO ES ACORDE CON LA CANTIDAD";
 			FinSi
 			
-		2:	SI rango_cant=2 y cant_llantas>5 y cant_llantas<=10 ENTONCES 
+		2:	SI rango_cant=2 y cant_llantas>=5 y cant_llantas<=10 ENTONCES 
 				precio_und=125000;
 				compra_total=(precio_und*cant_llantas);
 				Escribir " como llevara mas de 5 pero menos de 10 el valor de cada  llanta es de  $125.000";
